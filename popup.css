@@ -1,0 +1,16 @@
+.container {
+    width:200px;
+    border-radius:20px;
+    padding: 5px;
+}
+
+.contain {
+    display: flex; 
+    align-items: center;
+}
+
+.paragraph {
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 700;
+}

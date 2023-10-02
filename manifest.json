@@ -1,0 +1,30 @@
+{   
+    "manifest_version": 3,
+    "name": "HelpMeOut2",
+    "description": "This plug-in records the user's screen",
+    "icons": {
+        "192":"android-chrome-192x192.png"
+    },
+
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "favicon-16x16.png",
+            "32": "favicon-32x32.png"
+        }
+    },
+
+    "host_permissions": [
+        "http://*/",
+        "https://*/*"
+    ],
+
+    "permissions": ["activeTab", "scripting", "tabs"],
+
+    "version": "1.0.0"
+}
